@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Bot konfiguratsiyasi
-TOKEN = os.getenv("TOKEN")
+TOKEN = "7687752286:AAFSmPTFQWkBdf0Ykayv88dyy9qi3NDuRr4"
 INSTAGRAM_LINK = "https://www.instagram.com/senior.collection?igsh=dnRjdTBpNzhmbTB3" 
 TIKTOK_LINK = "https://www.tiktok.com/@senior.collection?_t=ZN-8ts9iyt4Aly&_r=1" 
 TELEGRAM_LINK = "https://t.me/seniorcollection" 

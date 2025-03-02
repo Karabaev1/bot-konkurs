@@ -83,7 +83,7 @@ async def start_command(message: types.Message):
     
     if await is_subscribed(user_id):
         add_user(user_id, username, nice_name)
-        await message.answer("🎉 Siz allaqachon konkurs ishtirokchisiz! Omad!")
+        await message.answer("🎉 Siz allaqachon konkurs ishtirokchisiz! Omad!", reply_markup=get_subscription_keyboard())
     else:
         await message.answer("Iltimos barcha ijtimoiy tarmoqlarga qo‘shiling", reply_markup=get_subscription_keyboard())
 
